@@ -34,9 +34,8 @@ const Experience = () => {
       {jobEntries.map((job, index) => (
         <div
           key={index}
-          className={`flex flex-col md:flex-row md:justify-between gap-6 mb-10 ${
-            index % 2 === 0 ? "" : "md:flex-row-reverse"
-          }`}
+          className={`flex flex-col md:flex-row md:justify-between gap-6 mb-10 ${index % 2 === 0 ? "" : "md:flex-row-reverse"
+            }`}
         >
           {/* Left: Job Details */}
           <div className="md:w-1/3 border-t md:border-t-0 md:border-r border-gray-300 pt-4 md:pt-0 md:pr-4 text-center md:text-right">
@@ -64,53 +63,3 @@ export default Experience;
 
 
 
-// import React from 'react'
-
-// const Experience = () => {
-//   return (
-//     // <div className="w-[930px] mx-auto">
-//     //   <hr class="horizonal-ruller-4"/>
-//     //   <div className='flex flex-row justify-between items-center p-4 gap-[79px]'>
-//     //       <div className='flex flex-col justify-end items-end gap-4'>
-//     //         <div className="border-b-2 border-black">
-//     //           <div>Job Title</div>
-//     //           <div>Comopany Name</div>
-//     //         </div>
-//     //         <div>Date</div>
-//     //     </div>
-//     //     <div className="max-w-4xl mx-auto p-4">
-//     //     <p className="text-lg mb-4">
-//     //       I have worked on various projects that showcase my skills in web development, including React, Node.js, and more.
-//     //     </p>
-//     //     <ul className="list-disc pl-5 space-y-2">
-//     //       <li>Developed a full-stack application using React and Node.js.</li>
-//     //       <li>Contributed to open-source projects on GitHub.</li>
-//     //       <li>Worked with RESTful APIs and integrated third-party services.</li>
-//     //     </ul>
-//     //   </div>
-//     //   </div>
-//     //   <div className='flex flex-row justify-between items-center p-4 gap-[79px]'>
-//     //     <div className="max-w-4xl mx-auto p-4">
-//     //     <p className="text-lg mb-4">
-//     //       I have worked on various projects that showcase my skills in web development, including React, Node.js, and more.
-//     //     </p>
-//     //     <ul className="list-disc pl-5 space-y-2">
-//     //       <li>Developed a full-stack application using React and Node.js.</li>
-//     //       <li>Contributed to open-source projects on GitHub.</li>
-//     //       <li>Worked with RESTful APIs and integrated third-party services.</li>
-//     //     </ul>
-//     //   </div>
-//     //       <div className='flex flex-col justify-end items-end gap-4'>
-//     //         <div className="border-b-2 border-black">
-//     //           <div>Job Title</div>
-//     //           <div>Comopany Name</div>
-//     //         </div>
-//     //         <div>Date</div>
-//     //     </div>
-        
-//     //   </div>
-//     // </div>
-//   )
-// }
-
-// export default Experience
